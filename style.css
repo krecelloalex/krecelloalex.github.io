@@ -1,0 +1,45 @@
+* {
+	font-family: Avenir Next Cyr;
+}
+
+carousel-indicators li {
+	background-color: #000;
+}
+
+.dropdown-menu {
+	
+}
+
+.slider-wrapper {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #000;
+	align-items: center;
+	align-content: center;
+	margin: 5vh;
+	/*padding: 3vh;*/
+	/*border-radius: 12px;*/
+	color: #fff;
+}
+
+.slide {
+	border-radius: 12px;
+}
+/*
+.slider article {
+	margin-left: 3vh;
+}
+
+.slider h1 {
+	margin-left: 3vh;
+	margin-bottom:  3vh;
+}*/
