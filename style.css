@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+/* Font OPEN SANS*/
+
+
+
+
 * {
-	font-family: Avenir Next Cyr;
+	font-family: Avenir Next, Avenit Next Cyr, 'Open Sans', sans-serif;
 }
 
-carousel-indicators li {
-	background-color: #000;
-}
+
 
 .dropdown-menu {
 	
@@ -25,21 +30,14 @@ carousel-indicators li {
 	background-color: #000;
 	align-items: center;
 	align-content: center;
-	margin: 5vh;
+	margin: 3vh;
+	padding: 1vh;
 	/*padding: 3vh;*/
-	/*border-radius: 12px;*/
+	border-radius: 12px;
 	color: #fff;
 }
 
 .slide {
 	border-radius: 12px;
 }
-/*
-.slider article {
-	margin-left: 3vh;
-}
 
-.slider h1 {
-	margin-left: 3vh;
-	margin-bottom:  3vh;
-}*/
