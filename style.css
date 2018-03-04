@@ -2,8 +2,22 @@
 
 /* Font OPEN SANS*/
 
+.d-block {
+	filter: contrast(120%);
+}
 
-
+.smile {
+	font-size: 500%;
+	color: yellow;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+}
 
 body {
 	font-family: Avenir Next, Avenir Next Cyr, 'Open Sans', sans-serif;
@@ -33,9 +47,13 @@ body {
 	padding: 1vh;
 	border-radius: 12px;
 	color: #fff;
+	height: 110%;
 }
 
 .slide {
 	border-radius: 12px;
 }
 
+.collapse {
+	margin-right: 1vw;
+}
