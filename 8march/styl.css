@@ -26,7 +26,7 @@ h1 {
 
 .strong:hover {
 	font-size: 120%;
-	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXOOpnMkCwk7hNB5lhlkbKVVEJYWpreEFBaph2jKQVakW55qWhFw);  /* подробнее про градиенты */ 
+	background: linear-gradient(#37C8AB, #FFD42A, #FF5599);  /* подробнее про градиенты */ 
   -webkit-background-clip: text;  /* подробнее про background-clip */ 
   color: transparent;
 }
