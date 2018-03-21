@@ -1,0 +1,176 @@
+@media (min-width: 576px) { 
+	/*.header-main-text {
+		font-size: 900%;
+	}
+
+	.name-main {
+		font-size:  700%;
+	}*/
+
+	.header-name {
+		font-size: 	400%;
+	}
+}
+
+ @media (max-width: 769px) { 
+	/*.header-main-text {
+		font-size: 10%;
+	}
+
+	.name-main {
+		font-size:  10%;
+	}*/
+
+
+ }
+
+
+
+
+* {
+	font-weight: none;
+}
+
+
+.body {
+	font-family: Avenir Next Light, Avenir Next Cyr Light;
+	  background: -moz-linear-gradient(#0072ff, #014aff, #1654ff, #022cff);
+	  background: -webkit-linear-gradient(#0072ff, #014aff, #1654ff, #022cff);
+	  background: -ms-linear-gradient(#0072ff, #014aff, #1654ff, #022cff);
+	background: linear-gradient(#0072ff, #014aff, #1654ff, #022cff);
+}
+
+
+
+
+.bold {
+	font-family: Avenir Next Heavy, Avenir Next Cyr Heavy;
+}
+
+.thin {
+	font-family: Avenir Next Thin, Avenir Next Cyr Thin;
+}
+
+.light {
+	font-family: Avenir Next Light, Avenir Next Cyr Light;
+}
+
+.medium {
+	font-family: Avenir Next Medium, Avenir Next Cyr Medium;
+}
+
+.heavy {
+	font-family: Avenir Next Heavy, Avenir Next Cyr Heavy;
+}
+
+
+.upper {
+	text-transform: uppercase;
+}
+
+nav {
+	background: #000;
+}
+
+.t-white {
+	color: #fff;
+}
+
+.t-black {
+	color: #000;
+}
+
+.nav-link {
+	font-size: 125%;
+}
+
+.navbar-items {
+	background: #000;
+}
+.navbar-items a {
+	color: #fff;
+}
+
+.menu-items a:hover {
+	color: #fff;
+	font-family: Avenir Next Medium, Avenir Next Cyr Medium;
+}
+header {
+	height: 100vh;
+	color: #fff;
+}
+
+aside, footer {
+	height: 100vh;
+}
+
+.name {
+
+
+  font-variant: small-caps;
+
+}
+
+
+
+.pos-abso {
+	position: absolute;
+}
+
+.header-bold {
+	font-size: 	800%;
+	margin-top: -160px;
+	opacity: 0.1;	
+}
+
+.header-name {
+	font-size: 	700%;
+}
+
+.header-main-h1 {
+	/*font-size: 	700%;*/
+}
+
+.header-btn {
+	background-color: #fff;
+	
+
+}
+
+.header-btn h1 {
+	
+	position: absolute;
+	margin-top: 140px;
+	margin-left: 0px;
+}
+
+.btn-next h1 {
+	font-size: 700%;
+	background: orange;
+	height: 17vh;
+	width: 12vw;
+}
+
+.aside_1-container {
+	background-color: #00000099;
+	border-radius: 10px 0;
+	width: 80%;
+
+}
+
+.aside_1-des {
+	font-size: 200%;
+}
+
+.aside2 h1  {
+	font-size: 500%;
+}
+
+.star {
+	font-size: 60%;
+	opacity: 0.6;
+}
+
+.star:hover {
+	opacity: 0.9;
+}
