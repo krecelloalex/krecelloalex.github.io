@@ -102,6 +102,7 @@ header {
 
 aside, footer {
 	height: 100vh;
+	font-family: Avenir Next, Avenir Next Cyr;
 }
 
 .name {
