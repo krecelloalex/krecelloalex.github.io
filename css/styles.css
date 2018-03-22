@@ -33,7 +33,7 @@
 
 
 .body {
-	font-family: Avenir Next Light, Avenir Next Cyr Light;
+	font-family: Avenir Next, Avenir Next Cyr Light;
 	  background: -moz-linear-gradient(#0072ff, #014aff, #1654ff, #022cff);
 	  background: -webkit-linear-gradient(#0072ff, #014aff, #1654ff, #022cff);
 	  background: -ms-linear-gradient(#0072ff, #014aff, #1654ff, #022cff);
@@ -56,7 +56,7 @@
 }
 
 .medium {
-	font-family: Avenir Next Medium, Avenir Next Cyr Medium;
+	font-family: Avenir Next, Avenir Next Cyr Medium;
 }
 
 .heavy {
