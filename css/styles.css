@@ -1,0 +1,302 @@
+@media (min-width: 576px) { 
+	/*.header-main-text {
+		font-size: 900%;
+	}
+
+	.name-main {
+		font-size:  700%;
+	}*/
+
+	.header-name {
+		font-size: 	400%;
+	}
+}
+
+ @media (max-width: 769px) { 
+	/*.header-main-text {
+		font-size: 10%;
+	}
+
+	.name-main {
+		font-size:  10%;
+	}*/
+
+
+ }
+
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&subset=cyrillic-ext');
+
+
+
+
+* {
+	font-weight: none;
+}
+
+
+.body {
+	font-family: Avenir Next Light, Avenir Next Cyr Light, 'Open Sans', sans-serif;
+	  background: -moz-linear-gradient(#0072ff, #014aff, #1654ff, #022cff);
+	  background: -webkit-linear-gradient(#0072ff, #014aff, #1654ff, #022cff);
+	  background: -ms-linear-gradient(#0072ff, #014aff, #1654ff, #022cff);
+	background: linear-gradient(#0072ff, #014aff, #1654ff, #022cff);
+}
+
+
+
+
+.bold {
+	font-family: Avenir Next Heavy, Avenir Next Cyr Heavy, 'Open Sans', sans-serif;
+	font-weight: 800;
+}
+
+.thin {
+	font-family: Avenir Next Thin, Avenir Next Cyr Thin, 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.light {
+	font-family: Avenir Next Light, Avenir Next Cyr Light, 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+.medium {
+	font-family: Avenir Next Medium, Avenir Next Cyr Medium, 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+.heavy {
+	font-family: Avenir Next Heavy, Avenir Next Cyr Heavy, 'Open Sans', sans-serif;
+	font-weight: 800;
+}
+
+
+.upper {
+	text-transform: uppercase;
+}
+
+nav {
+	background: #000;
+}
+
+.t-white:hover {
+	color: #fff;
+}
+
+.t-white a:hover {
+	color: #fff;
+}
+
+.t-black:hover {
+	color: #000;
+}
+
+.t-black a:hover {
+	color: #000;
+}
+
+.t-white {
+	color: #fff;
+}
+
+.t-white a {
+	color: #fff;
+}
+
+.t-black {
+	color: #000;
+}
+
+.t-black a {
+	color: #000;
+
+	display: flex;
+}
+
+
+
+
+
+
+
+.nav-link {
+	font-size: 125%;
+}
+
+.navbar-items {
+	background: #000;
+}
+.navbar-items a {
+	color: #fff;
+}
+
+.menu-items a:hover {
+	color: #fff;
+	font-family: Avenir Next Medium, Avenir Next Cyr Medium;
+}
+header {
+	height: 100vh;
+	color: #fff;
+}
+
+aside, footer {
+	height: 100vh;
+}
+
+.name {
+
+
+  font-variant: small-caps;
+
+}
+
+
+
+.pos-abso {
+	position: absolute;
+}
+
+.header-bold {
+	font-size: 	800%;
+	margin-top: -160px;
+	opacity: 0.1;	
+}
+
+.header-name {
+	font-size: 	700%;
+}
+
+.header-main-h1 {
+	/*font-size: 	700%;*/
+}
+
+.header-btn {
+	background-color: #fff;
+	
+
+}
+
+.header-btn h1 {
+	
+	position: absolute;
+	margin-top: 140px;
+	margin-left: 0px;
+}
+
+.btn-next h1 {
+	font-size: 700%;
+	background: orange;
+	height: 17vh;
+	width: 12vw;
+}
+
+.aside_1-container {
+	background-color: #00000099;
+	border-radius: 10px 0;
+	width: 80%;
+
+}
+
+.aside_1-des {
+	font-size: 200%;
+}
+
+.aside2 h1  {
+	font-size: 500%;
+}
+
+.star {
+	font-size: 60%;
+	opacity: 0.6;
+}
+
+.star:hover {
+	opacity: 0.9;
+}
+
+.aside3 {
+	/*background-color: #fff;*/
+	-moz-box-sizing: border-box; /* Для Firefox */  
+    box-sizing: border-box; 
+}
+
+.aside3-item {
+	padding:  10px;
+	border-radius: 30px;
+	box-shadow: 0px 5px 24.51px 14.49px rgba(0, 0, 0, 0.24);
+	  
+	
+
+}
+
+.aside3-item1 {
+	background: #000;
+}
+
+.aside3-item2 {
+	background: #383;
+}
+
+.aside3-item3 {
+	background: #f0f;
+}
+
+.aside3-item4 {
+	background: #ff0;
+}
+
+.aside3-name {
+	font-size: 350%;
+	padding-left: 70px;
+}
+
+.m-top-10 {
+	margin-top: 17px;
+}
+
+.aside3-btn h1 {
+	width: 8vw;
+}
+
+.btn-next a:hover {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: green;
+}
+.btn-next h1:hover {
+	background-color: green;
+	color: #fff;
+	transition: all 1s linear;
+}
+
+.color-gallery-items {
+	width: 10vw;
+	height: 10vh;
+	background-color: #fff;
+	border: 2px white solid;
+}
+
+.co-gal-blue {
+	background-color: #0d41ff;
+}
+
+.co-gal-dark-blue {
+	background-color: #001ba0;
+}
+
+.co-gal-orange {
+	background-color: #ffa500;
+}
+
+.co-gal-green {
+	background-color: #008000;
+}
+
+.co-gal-black {
+	background-color: #000;
+
+}
+
+.co-gal-white {
+	border: 2px #00000070 solid;
+}
