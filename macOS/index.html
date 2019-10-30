@@ -24,6 +24,7 @@
                 var strcount
                 var x = new Date().toLocaleString("en-US", {timeZone: "America/Sao_Paulo"});
                 var x1 = x.getMonth() + 1 + "/" + x.getDate() + "/" + x.getYear();
+                var x1 = x.getMonth() + 1 + "/" + x.getDate() + "/" + x.getYear();
                 x1 = x1 + " - " + x.getHours( ) + ":" + x.getMinutes() + ":" + x.getSeconds();
                 document.getElementById('ct').innerHTML = x1;
 
@@ -61,13 +62,13 @@
 -->
       
     
-      <nav class="navbar navbar-expand-lg navbar-dark bg-gray">
+      <nav class="navbar navbar-expand-lg  bg-gray">
             <a class="navbar-brand d-flex align-items-center" href="#">
-                <img src="img/alogo.svg" alt="" height="15px">
+                <img src="img/alogo.svg" alt="" height="13px">
             </a>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav mr-auto nav-l">
       <li class="nav-item active">
           <a class="nav-link bold" href="#">Finder</a>
       </li>
@@ -126,11 +127,19 @@
     
     <div class="form-inline my-2 my-lg-0">
       <a class="nav-link" href="#">
-            12:54 AM
+            12:54 AM Tue
           </a>
-      <a class="nav-link" href="#">
-            12:54 AM
+      <a class="nav-link  d-flex align-items-center" href="#">
+            <img src="img/search.svg" alt="" height="23px">
        </a>
+        <a class="nav-link  d-flex align-items-center" href="#">
+            <img src="img/siri.png" alt="" height="23px">
+        </a>
+        <a class="nav-link  d-flex align-items-center" href="#">
+            <img src="img/burg.svg" alt="" height="23px">
+       </a>
+        
+        
     </div>
   </div>
 </nav>
