@@ -6,22 +6,35 @@ html {
   background-size: cover;
 }
 
-.nav {
-	background: #1A212F;
+.navbar {
+	font-size: 12px;
 	height: 23px;
 	/*display: inline-flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;*/
+    
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.bg-gray {
+    background: #1A212F;
 }
 
 .nav-l {
 	height: 23px;
-	margin-left: 20px;
+	margin-left: 0px;
 	padding: 0;
 }
 
-.nav-l a {
+.navbar a {
 	font-size: 14px;
 	padding: 17px;
 	padding-top: 0px;
@@ -31,10 +44,14 @@ html {
 	height: 100%;
 }
 
-.nav-l a:hover {
+.navbar a:hover {
 	
 	color: #000;
 	background: #fff;
+}
+
+li:hover {
+    color:#000;
 }
 
 .nav-l img {
