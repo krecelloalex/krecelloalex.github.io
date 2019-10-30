@@ -1,0 +1,42 @@
+html { 
+  background: url(img/wallpaper.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.nav {
+	background: #1A212F;
+	height: 23px;
+	/*display: inline-flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;*/
+}
+
+.nav-l {
+	height: 23px;
+	margin-left: 20px;
+	padding: 0;
+}
+
+.nav-l a {
+	font-size: 14px;
+	padding: 17px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #fff;
+	margin:0;
+	height: 100%;
+}
+
+.nav-l a:hover {
+	
+	color: #000;
+	background: #fff;
+}
+
+.nav-l img {
+	margin-top: 0px;
+}

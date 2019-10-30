@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>MacOS</title>
+
+
+
+    <script>
+            function display_c() {
+                var refresh = 1000; // Refresh rate in milli seconds
+                mytime = setTimeout('display_ct()', refresh)
+            }
+
+            function display_ct() {
+                var strcount
+                var x = new Date().toLocaleString("en-US", {timeZone: "America/Sao_Paulo"});
+                var x1 = x.getMonth() + 1 + "/" + x.getDate() + "/" + x.getYear();
+                x1 = x1 + " - " + x.getHours( ) + ":" + x.getMinutes() + ":" + x.getSeconds();
+                document.getElementById('ct').innerHTML = x1;
+
+                tt = display_c();
+            }
+        </script>
+
+
+
+
+  </head>
+
+  <body onload=display_ct();>
+      
+      <span id='ct' ></span>
+<!--
+    <nav class="nav d-flex row justify-content-between">
+    	<div class="d-flex flex-row align-items-center nav-l">
+    		<a href="#" class="d-flex align-items-center"><img src="img/alogo.svg" alt="" height="15px"></a>
+    		<a class="nav-link d-flex align-items-center bold" href="#">Finder</a>
+    		<a class="nav-link d-flex align-items-center" href="#">File</a>
+    		<a class="nav-link d-flex align-items-center" href="#">View</a>
+    		<a class="nav-link d-flex align-items-center" href="#">Edit</a>
+    		<a class="nav-link d-flex align-items-center" href="#">Go</a>
+    		<a class="nav-link d-flex align-items-center" href="#">Window</a>
+    		<a class="nav-link d-flex align-items-center" href="#">Help</a>
+    	</div>
+
+      	<div class="d-flex flex-row align-items-center nav-r">
+    		<span id='ct' ></span>
+    		<p>jd</p>
+    	</div>
+      
+    </nav>
+-->
+      
+    
+      <nav class="navbar navbar-expand-lg navbar-dark bg-gray">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="img/alogo.svg" alt="" height="15px">
+            </a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+          <a class="nav-link bold" href="#">Finder</a>
+      </li>
+      <li class="nav-item  active">
+          <a class="nav-link" href="#">
+            File
+          </a>
+      </li>
+        
+      <li class="nav-item  active">
+          <a class="nav-link" href="#">
+            Edit
+          </a>
+      </li>
+        
+      <li class="nav-item  active">
+          <a class="nav-link" href="#">
+            View
+          </a>
+      </li>
+        
+        <li class="nav-item  active">
+          <a class="nav-link" href="#">
+            Go
+          </a>
+      </li>
+        
+        <li class="nav-item  active">
+          <a class="nav-link" href="#">
+            Window
+          </a>
+      </li>
+        
+        <li class="nav-item  active">
+          <a class="nav-link" href="#">
+            Help
+          </a>
+      </li>
+</ul>
+        
+<!--
+      <li class="nav-item active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+-->
+        
+    
+    
+    <div class="form-inline my-2 my-lg-0">
+      <a class="nav-link" href="#">
+            12:54 AM
+          </a>
+      <a class="nav-link" href="#">
+            12:54 AM
+       </a>
+    </div>
+  </div>
+</nav>
+      
+      
+      
+      
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
