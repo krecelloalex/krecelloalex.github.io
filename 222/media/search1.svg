@@ -1,0 +1,8 @@
+<svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="-0.05" y="0.05" width="36.9" height="36.9" rx="18.45" transform="matrix(-1 0 0 1 37.9 1)" stroke="black" stroke-width="0.1"/>
+<rect x="-0.05" y="0.05" width="36.9" height="36.9" rx="18.45" transform="matrix(-1 0 0 1 36.9 2)" stroke="black" stroke-width="0.1"/>
+<rect x="-0.05" y="0.05" width="36.9" height="36.9" rx="18.45" transform="matrix(-1 0 0 1 38.9 0)" stroke="black" stroke-width="0.1"/>
+<rect x="-0.05" y="0.05" width="36.9" height="36.9" rx="18.45" transform="matrix(-1 0 0 1 38.9 2)" stroke="black" stroke-width="0.1"/>
+<rect x="-0.05" y="0.05" width="36.9" height="36.9" rx="18.45" transform="matrix(-1 0 0 1 36.9 0)" stroke="black" stroke-width="0.1"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M22.2728 18.0169C22.2728 15.7059 20.3994 13.8325 18.0884 13.8325C15.7774 13.8325 13.904 15.7059 13.904 18.0169C13.904 20.3279 15.7774 22.2013 18.0884 22.2013C20.3994 22.2013 22.2728 20.3279 22.2728 18.0169ZM18.0884 11.8325C21.5039 11.8325 24.2728 14.6014 24.2728 18.0169C24.2728 19.5407 23.7217 20.9357 22.808 22.0136L26.7449 25.9504L25.3307 27.3647L21.2807 23.3147C20.3488 23.8775 19.2564 24.2013 18.0884 24.2013C14.6728 24.2013 11.904 21.4325 11.904 18.0169C11.904 14.6014 14.6728 11.8325 18.0884 11.8325Z" fill="black"/>
+</svg>
