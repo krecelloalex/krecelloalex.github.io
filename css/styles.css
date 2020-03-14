@@ -300,3 +300,35 @@ aside, footer {
 .co-gal-white {
 	border: 2px #00000070 solid;
 }
+
+.nav-message {
+	border: black solid 1px;
+	border-radius: 5px;
+	padding: 5px 10px;
+}
+
+.btn-txt {
+	padding-left: 7px;
+}
+
+a:hover {
+	text-decoration: none;
+	
+}
+
+header {
+	margin-top: 15px;
+}
+
+.nav-society-item {
+	padding-left: 15px;
+}
+
+.content-txt {
+	margin-top: 50px;
+}
+
+.me-img {
+	border-radius: 5px;
+	padding-left: 20px;
+}
