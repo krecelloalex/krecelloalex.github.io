@@ -6,3 +6,11 @@
 h1 {
 	font-family: 'Yeseva One', cursive;
 }
+
+.text-align-left {
+	text-align: right;
+}
+
+.card {
+	margin-top: 15px;
+}
