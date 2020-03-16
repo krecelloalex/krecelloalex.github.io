@@ -14,3 +14,15 @@ h1 {
 .card {
 	margin-top: 15px;
 }
+
+.icon-btn {
+	padding-right: 5px;
+}
+
+nav .btn {
+	margin-left: 10px;
+}
+
+.jumbotron .rozklad {
+	padding: 0;
+}
