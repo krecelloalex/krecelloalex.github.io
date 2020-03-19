@@ -26,3 +26,8 @@ nav .btn {
 .jumbotron .rozklad {
 	padding: 0;
 }
+
+
+.nav-link {
+	font-size: 80%;
+}
