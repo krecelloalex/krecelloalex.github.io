@@ -1,0 +1,109 @@
+html {
+    background: url(bg3.jpg) 100% 100% no-repeat; /* Добавляем фон */
+    background-size: cover; /* Масштабируем фон */
+    height: 100vh;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+#grey1, #grey2, #grey {
+        background: rgba(0, 0, 0, 0.5);
+        
+}
+
+#num1, #num2, #num3, #num4, #num5, #num6, #num7, #num8, #num9, #num {
+    background: rgba(0, 0, 0, 0.30);
+}
+
+#rovno {
+    background: rgba(0, 0, 0, 0.70);
+}
+
+
+button:focus {
+    border: none;
+
+    outline: none;
+}
+
+.calculator {
+    font-family: 'Roboto Mono', monospace;
+    width: 250px;
+    height: 350px;
+/*    border: 2px solid black;*/
+    margin: 100px auto 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(50px);
+    box-shadow: 0 0 50px rgba(0, 10, 0, .55);
+    border-radius: 15px;
+}
+
+.calculator__form {
+    height: 100%;
+    padding: 20px;
+}
+
+.calculator__row {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.calculator__display {
+    border-radius: 50px;
+
+    margin: 0 0 10px;
+    width: 100%;
+    border: 1px solid  rgba(0, 0, 0, .005);
+    padding: 10px 15px;
+    text-align: right;
+    font-size: 110%;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+    color: white;
+    background-color:  rgba(0, 0, 0, .35);
+}
+
+.calculator__key {
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 50px;
+    background-color:  rgba(0, 0, 0, .45);
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-weight: 100;
+    font-size: 110%;
+    border: none;
+    transition: all .5s;
+/*    text-transform: uppercase;*/
+    color: #fff;
+}
+
+.calculator__key--equal {
+    width: 98px;
+}
+
+.calculator__key:hover {
+    background-color:  rgba(0, 0, 0, .25);
+    /*font-weight: 700;*/
+}
+
+.calculator__key:active {
+    background-color:  rgba(0, 0, 0, .15);
+    border: none;
+    box-shadow: none;
+    /*font-weight: 700;*/
+}
+
+.calculator__key:focus {
+    background-color:  rgba(0, 0, 0, .15);
+    border: none;
+    box-shadow: none;
+    /*font-weight: 700;*/
+}
+
+.calculator__key::-moz-focus-inner {
+    border: none;
+}
